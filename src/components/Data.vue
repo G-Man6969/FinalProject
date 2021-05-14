@@ -23,7 +23,7 @@ export default {
   mounted() {
     axios
       .get(
-        "http://api.openweathermap.org/data/2.5/weather?zip=65712&appid=c60d5366f859343d28974e5b14007e67"
+        "http://api.openweathermap.org/data/2.5/weather?zip={&mode=${}&appid=c60d5366f859343d28974e5b14007e67"
       )
       .then((response) => {
         console.log(response);
