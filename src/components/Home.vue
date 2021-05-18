@@ -1,3 +1,8 @@
+<!--
+Name: Gavin Elliott
+Date: 5/17/2021
+Assignment: FinalProject
+-->
 <template>
   <div>
     <br />
@@ -16,6 +21,7 @@
               Please Enter Your City ZIP Code to Get Your Weather Info!
             </legend>
             <label for="zip">Enter needed ZIP:</label>
+            <!-- Where the ZIP is entered -->
             <input
               type="text"
               id="zip"
@@ -23,6 +29,7 @@
               title="Enter only a functioning zip (#####)"
             /><br /><br />
             <label for="F">Fahrenheit </label>
+            <!-- Radio Buttons for Fahrenheit and Celsius -->
             <input
               type="radio"
               name="degree"
@@ -42,12 +49,15 @@
       </div>
     </fieldset>
   </div>
+  <!-- I don't know why it starts in Kelvin -->
 </template>
 
+<!-- Export to wherever it's needed-->
 <script>
 export default {
   name: "Home",
   methods: {
+    //Code for the Farenheit/Celsius
   }
 };
 </script>
